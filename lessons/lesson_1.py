@@ -1,7 +1,5 @@
-import sys
-
 """
-An example of managing arguments using sys library.
+Argument managment using sys library
 
 input:
 >>> python lessons/lesson_1.py arg1 arg2 arg3
@@ -13,6 +11,9 @@ output:
 >>> This is the 3th argument: arg3
 
 """
+
+import sys
+
 
 for arg_idx, arg in enumerate(sys.argv):
     if arg_idx == 0:

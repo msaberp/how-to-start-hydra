@@ -1,5 +1,5 @@
 """
-Argument managment using sys library
+Argument management using sys library
 
 input:
 >>> python lessons/lesson_1.py arg1 arg2 arg3

@@ -1,0 +1,6 @@
+type: adam
+lr: 0.01
+beta:
+  - 0.9
+  - 0.999
+weight_decay: 0.005

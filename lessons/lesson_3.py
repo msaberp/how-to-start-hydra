@@ -67,7 +67,7 @@ def create_cfg():
 
 if __name__ == "__main__":
   cfg = get_cfg_defaults()
-  cfg.merge_from_file("lessons/lesson_3.yaml")
+  cfg.merge_from_file("lessons/configs/lesson_3.yaml")
   cfg.freeze()
   print(cfg)
   
